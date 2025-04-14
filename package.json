@@ -1,10 +1,10 @@
 {
-  "name": "@rn-g-cli/cli",
-  "version": "1.0.0",
+  "name": "@avulachandrakanth1/rn-g-cli",
+  "version": "1.0.1",
   "description": "A CLI to generate React Native components and screens",
   "main": "index.js",
   "bin": {
-    "rn-cli": "./index.js"
+    "rn-g-cli": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
