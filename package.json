@@ -1,5 +1,5 @@
 {
-  "name": "rn-g-cli",
+  "name": "@rn-g-cli/cli",
   "version": "1.0.0",
   "description": "A CLI to generate React Native components and screens",
   "main": "index.js",
