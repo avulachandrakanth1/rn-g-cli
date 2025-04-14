@@ -1,0 +1,18 @@
+{
+  "name": "rn-g-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chandrakanth Avula",
+  "license": "MIT",
+  "description": "A CLI to generate React Native components and screens",
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "bin": {
+    "rn-cli": "./index.js"
+  }
+}
