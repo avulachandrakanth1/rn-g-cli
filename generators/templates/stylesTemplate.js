@@ -1,5 +1,3 @@
-// templates/componentStylesTemplate.js
-
 const componentStylesTemplate = () => {
   return `import { StyleSheet } from 'react-native';
 
