@@ -1,11 +1,12 @@
 {
-  "name": "@avulachandrakanth1/rn-g-cli",
-  "version": "1.0.1",
+  "name": "@rn-cli/cli",
+  "version": "1.0.4",
   "description": "A CLI to generate React Native components and screens",
   "main": "index.js",
   "bin": {
-    "rn-g-cli": "./index.js"
+    "rn": "./index.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,12 +15,13 @@
     "react-native",
     "component-generator",
     "screen-generator",
-    "rn-cli"
+    "rn-cli",
+    "react-native-cli"
   ],
   "author": "Chandrakanth Avula",
   "license": "MIT",
   "engines": {
-    "node": "22.14.0"
+    "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",

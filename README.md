@@ -1,4 +1,4 @@
-# rn-g-cli
+# rn
 
 A command-line interface (CLI) tool for generating React Native components and screens with a complete file structure. Create ready-to-use components with separate TypeScript, styles, and types files in seconds!
 
@@ -6,7 +6,7 @@ A command-line interface (CLI) tool for generating React Native components and s
 
 ## Overview
 
-**rn-g-cli** lets you quickly scaffold React Native components and screens with best practices built-in. No need to create boilerplate files manually – simply run the command and get a standardized folder structure that includes:
+**rn** lets you quickly scaffold React Native components and screens with best practices built-in. No need to create boilerplate files manually – simply run the command and get a standardized folder structure that includes:
 
 - `index.tsx` – The main component file.
 - `styles.ts` – The stylesheet for the component.
@@ -19,7 +19,7 @@ A command-line interface (CLI) tool for generating React Native components and s
 - **Easy to Use:** Generate components/screens with one command.
 - **Custom Folder Structure:** Automatically creates files in a relative folder structure. For example:
 
-  - Running `rn-g-cli g component Header` will generate:
+  - Running `rn g component Header` will generate:
 
     ```
     src/components/Header/
@@ -28,7 +28,7 @@ A command-line interface (CLI) tool for generating React Native components and s
       └── types.d.ts
     ```
 
-  - Running `rn-g-cli g component ui/shared/MyComponent` will generate:
+  - Running `rn g component ui/shared/MyComponent` will generate:
 
     ```
     src/ui/shared/MyComponent/
@@ -53,5 +53,5 @@ This package is published on NPM and is free to use under the MIT license.
 To install the CLI tool globally on your machine, run:
 
 ```bash
-npm install -g @avulachandrakanth1/rn-g-cli
+npm install -g @avulachandrakanth1/rn
 ```
