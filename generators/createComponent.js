@@ -7,7 +7,7 @@ const { componentTypesTemplate } = require("./templates/typesTemplate");
 const createComponent = (type, name) => {
   const validTypes = ["component", "screen"];
   if (!validTypes.includes(type)) {
-    console.error(`❌ Invalid type "${type}". Use "component" or "screen".`);
+    console.error(`Invalid type "${type}". Use "component" or "screen".`);
     return;
   }
 
@@ -27,7 +27,7 @@ const createComponent = (type, name) => {
   );
 
   if (fs.existsSync(targetDir)) {
-    console.error(`❌ ${type} "${name}" already exists at ${targetDir}`);
+    console.error(`${type} "${name}" already exists at ${targetDir}`);
     return;
   }
 
@@ -42,8 +42,8 @@ const createComponent = (type, name) => {
   fs.writeFileSync(path.join(targetDir, "styles.ts"), stylesFileContent);
   fs.writeFileSync(path.join(targetDir, "types.d.ts"), typesFileContent);
 
-  console.log(`✅ ${type} "${componentName}" created at ${path.relative(process.cwd(), targetDir)}`);
-  console.log("📄 Files created:");
+  console.log(`${type} "${componentName}" created at ${path.relative(process.cwd(), targetDir)}`);
+  console.log("Files created:");
   console.log("   • index.tsx");
   console.log("   • styles.ts");
   console.log("   • types.d.ts");
