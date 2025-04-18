@@ -53,5 +53,5 @@ This package is published on NPM and is free to use under the MIT license.
 To install the CLI tool globally on your machine, run:
 
 ```bash
-npm install -g @avulachandrakanth1/rn
+npm install -g @rn-cli/cli
 ```
